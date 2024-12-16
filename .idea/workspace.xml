@@ -5,25 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c19295c1-bd08-4f22-95bc-8d15055adc37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Data/DayFive.test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Data/DayFive.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Data/DayFive.2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Data/DayFive.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Data/DayFive.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Data/DayFour.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Data/DayFour.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Data/DayOne.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Data/DayOne.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Data/DayThree.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Data/DayThree.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Data/DayTwo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Data/DayTwo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Main.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/Solutions/DayFiveAnswers.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Solutions/DayFiveAnswers.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/MySuite.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/MySuite.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.6.2/classes/Data/DayFive.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.6.2/classes/Data/DayFive.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.6.2/classes/Data/DayFour.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.6.2/classes/Data/DayFour.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.6.2/classes/Data/DayOne.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.6.2/classes/Data/DayOne.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.6.2/classes/Data/DayThree.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.6.2/classes/Data/DayThree.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.6.2/classes/Data/DayTwo.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.6.2/classes/Data/DayTwo.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.6.2/classes/Main$package.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.6.2/classes/Main$package.tasty" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-3.6.2/classes/Solutions/DayFiveAnswers.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.6.2/classes/Solutions/DayFiveAnswers.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.6.2/classes/main.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.6.2/classes/main.tasty" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-3.6.2/test-classes/MySuite.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.6.2/test-classes/MySuite.tasty" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +58,7 @@
     "Application.main.executor": "Run",
     "MUnit.MySuite.Creates List of uniques.executor": "Run",
     "MUnit.MySuite.Day Five: 1.executor": "Run",
+    "MUnit.MySuite.Day Five: 2.executor": "Run",
     "MUnit.MySuite.Day Four: 1.executor": "Run",
     "MUnit.MySuite.Day Four: 2.executor": "Run",
     "MUnit.MySuite.Day One: 2.executor": "Run",
@@ -112,32 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySuite" type="MUnitRunConfiguration" factoryName="MUnit" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="AdventOfCode_2024" />
-      <option name="VMParameters" value="" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="alternativeJrePath" />
-      <option name="alternativeJrePathEnabled" value="false" />
-      <option name="classpathModifications">
-        <list />
-      </option>
-      <option name="envs">
-        <map />
-      </option>
-      <option name="passParentEnvs" value="true" />
-      <option name="programParameters" value="" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Class" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <option name="testClassPath" value="MySuite" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MySuite.Day Five: 1" type="MUnitRunConfiguration" factoryName="MUnit" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="AdventOfCode-2024" />
       <option name="VMParameters" value="" />
@@ -160,6 +121,33 @@
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <option name="testClassPath" value="MySuite" />
       <option name="testName" value="Day Five: 1" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySuite.Day Five: 2" type="MUnitRunConfiguration" factoryName="MUnit" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="AdventOfCode-2024" />
+      <option name="VMParameters" value="" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="alternativeJrePath" />
+      <option name="alternativeJrePathEnabled" value="false" />
+      <option name="classpathModifications">
+        <list />
+      </option>
+      <option name="envs">
+        <map />
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="testClassPath" value="MySuite" />
+      <option name="testName" value="Day Five: 2" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -290,10 +278,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.main" />
+        <item itemvalue="MUnit.MySuite.Day Five: 2" />
         <item itemvalue="MUnit.MySuite.Day Five: 1" />
         <item itemvalue="MUnit.MySuite.Day Four: 2" />
         <item itemvalue="MUnit.MySuite.Day Four: 1" />
-        <item itemvalue="MUnit.MySuite" />
       </list>
     </recent_temporary>
   </component>

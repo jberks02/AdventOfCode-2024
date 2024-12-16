@@ -89,4 +89,8 @@ class MySuite extends munit.FunSuite {
     val middleAdded = countMiddleReportsThatAreOrdered(dayFiveTest._2, dayFiveTest._1)
     assertEquals(middleAdded, 143)
   }
+  test("Day Five: 2") {
+    val wrongMiddleFix = countOfMiddleInCorrectedReports(dayFiveTest._2, dayFiveTest._1)
+    assertEquals(wrongMiddleFix, 123)
+  }
 }

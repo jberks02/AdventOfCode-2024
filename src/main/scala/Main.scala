@@ -28,5 +28,7 @@ import Data.DayFive.*
   println(s"X-MAS count: $xmasWordSearchAttempt")
   val correctReports = countMiddleReportsThatAreOrdered(dayFiveOne._2, dayFiveOne._1)
   println(s"Counted middles: $correctReports")
+  val updatedUpdates = countOfMiddleInCorrectedReports(dayFiveTwo._2, dayFiveTwo._1)
+  println(s"Middle Count of Corrected: $updatedUpdates")
 
 

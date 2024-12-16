@@ -8,8 +8,10 @@ import scala.collection.parallel.{ParMap, ParSeq}
 object DayFive {
   private val testPath: String = "/Users/justinberkshire/adventOfCode/AdventOfCode-2024/src/main/scala/Data/DayFive.test.txt"
   private val fiveOnePath: String = "/Users/justinberkshire/adventOfCode/AdventOfCode-2024/src/main/scala/Data/DayFive.txt"
+  private val fiveTwoPath: String = "/Users/justinberkshire/adventOfCode/AdventOfCode-2024/src/main/scala/Data/DayFive.2.txt"
   private val testInput: String = Using.resource(Source.fromFile(testPath))(_.mkString)
   private val fiveOneInput: String = Using.resource(Source.fromFile(fiveOnePath))(_.mkString)
+  private val fiveTwoInput: String = Using.resource(Source.fromFile(fiveTwoPath))(_.mkString)
   private def parseOutOrderingMap(blockText: String):  Map[Int, List[Int]] = {
     blockText
       .split("\n").toList
@@ -29,4 +31,5 @@ object DayFive {
   }
   val dayFiveTest: (Map[Int, List[Int]], List[List[Int]]) = (parseOutOrderingMap(testInput), getUpdateList(testInput))
   val dayFiveOne: (Map[Int, List[Int]], List[List[Int]]) = (parseOutOrderingMap(fiveOneInput), getUpdateList(fiveOneInput))
+  val dayFiveTwo: (Map[Int, List[Int]], List[List[Int]]) = (parseOutOrderingMap(fiveTwoInput), getUpdateList(fiveTwoInput))
 }
