@@ -1,4 +1,10 @@
-import Solutions._
+import Data.DayFive.*
+import Solutions.DayOneAnswers.*
+import Solutions.DayTwoAnswers.*
+import Solutions.DayThreeAnswers.*
+import Solutions.DayFourAnswers.*
+import Solutions.DayFiveAnswers.*
+
 
 class MySuite extends munit.FunSuite {
   test("Day One: 1") {
@@ -25,12 +31,12 @@ class MySuite extends munit.FunSuite {
     val res = checkIfReportsAreSafe(spread)
     assertEquals(res, 2)
   }
-  test("Creates List of uniques") {
-    val l = List(1,2,3,4)
-    val lOfL = createSubListSetWithMissingValue(l)
-    println(lOfL)
-    assertEquals(lOfL, List(List(2, 3, 4), List(1, 3, 4), List(1, 2, 4), List(1, 2, 3)))
-  }
+//  test("Creates List of uniques") {
+//    val l = List(1,2,3,4)
+//    val lOfL = createSubListSetWithMissingValue(l)
+//    println(lOfL)
+//    assertEquals(lOfL, List(List(2, 3, 4), List(1, 3, 4), List(1, 2, 4), List(1, 2, 3)))
+//  }
   test("Day two: 2") {
     val spread = List(
       List(7, 6, 4, 2, 1),
@@ -78,5 +84,9 @@ class MySuite extends munit.FunSuite {
         |M.M.M.M.M.
         |..........""".stripMargin
     assertEquals(searchDiagonals(wordSearch, "MAS"), 9)
+  }
+  test("Day Five: 1") {
+    val middleAdded = countMiddleReportsThatAreOrdered(dayFiveTest._2, dayFiveTest._1)
+    assertEquals(middleAdded, 143)
   }
 }

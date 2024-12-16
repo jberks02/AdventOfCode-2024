@@ -2,10 +2,12 @@ import Solutions.DayOneAnswers.*
 import Solutions.DayTwoAnswers.*
 import Solutions.DayThreeAnswers.*
 import Solutions.DayFourAnswers.*
+import Solutions.DayFiveAnswers.*
 import Data.DayOne.*
 import Data.DayTwo.*
 import Data.DayThree.*
 import Data.DayFour.*
+import Data.DayFive.*
 
 @main def main(): Unit =
   val summedDiffs = processLeftRightList(leftList, rightList)
@@ -24,4 +26,7 @@ import Data.DayFour.*
   println(s"XMAS count: $wordSearchSolution")
   val xmasWordSearchAttempt = searchDiagonals(xmasWordSearch, "MAS")
   println(s"X-MAS count: $xmasWordSearchAttempt")
+  val correctReports = countMiddleReportsThatAreOrdered(dayFiveOne._2, dayFiveOne._1)
+  println(s"Counted middles: $correctReports")
+
 

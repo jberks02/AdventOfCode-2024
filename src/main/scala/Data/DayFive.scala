@@ -6,22 +6,27 @@ import scala.collection.parallel.CollectionConverters.*
 import scala.collection.parallel.{ParMap, ParSeq}
 
 object DayFive {
-  private val path: String = "/Users/justinberkshire/adventOfCode/adventsnips/src/main/scala/Data/DayFive.txt"
-  private val textInput: String = Using.resource(Source.fromFile(path))(_.mkString)
-  private def parseOutOrderingMap(blockText: String):  ParMap[Int, ParSeq[Int]] = {
+  private val testPath: String = "/Users/justinberkshire/adventOfCode/AdventOfCode-2024/src/main/scala/Data/DayFive.test.txt"
+  private val fiveOnePath: String = "/Users/justinberkshire/adventOfCode/AdventOfCode-2024/src/main/scala/Data/DayFive.txt"
+  private val testInput: String = Using.resource(Source.fromFile(testPath))(_.mkString)
+  private val fiveOneInput: String = Using.resource(Source.fromFile(fiveOnePath))(_.mkString)
+  private def parseOutOrderingMap(blockText: String):  Map[Int, List[Int]] = {
     blockText
-      .split("\n").toList.par
+      .split("\n").toList
       .filter(_.contains("|"))
       .map { pair =>
-        val splitted = pair.split("|")
+        val splitted = pair.split("\\|")
         (splitted.head.toInt, splitted.tail.head.toInt)
-      }.groupBy(_._1).map((key, list) => (key, list.map(_._2)))
+      }.groupBy(_._1)
+      .map((key, list) => (key, list.map(_._2)))
   }
   private def getUpdateList(blockText: String): List[List[Int]] = {
     blockText
-      .split("\n").toList.par
-      .filterNot(_.contains("|"))
-      .map(_.split(" ").map(_.toInt).toList).toList
+      .split("\n")
+      .filter(_.contains(","))
+      .map(_.split(",").map(_.toInt).toList)
+      .toList
   }
-  val dayFiveOne = (parseOutOrderingMap(textInput), getUpdateList(textInput))
+  val dayFiveTest: (Map[Int, List[Int]], List[List[Int]]) = (parseOutOrderingMap(testInput), getUpdateList(testInput))
+  val dayFiveOne: (Map[Int, List[Int]], List[List[Int]]) = (parseOutOrderingMap(fiveOneInput), getUpdateList(fiveOneInput))
 }

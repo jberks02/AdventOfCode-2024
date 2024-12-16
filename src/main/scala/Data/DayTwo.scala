@@ -4,8 +4,8 @@ import scala.io.Source
 import scala.util.Using
 
 object DayTwo {
-  val path = "/Users/justinberkshire/adventOfCode/adventsnips/src/main/scala/Data/DayTwo.txt"
-  val partTwo = "/Users/justinberkshire/adventOfCode/adventsnips/src/main/scala/Data/DayTwo.txt"
+  val path = "/Users/justinberkshire/adventOfCode/AdventOfCode-2024/src/main/scala/Data/DayTwo.txt"
+  val partTwo = "/Users/justinberkshire/adventOfCode/AdventOfCode-2024/src/main/scala/Data/DayTwo.txt"
   val fileContents: String = Using.resource(Source.fromFile(path))(_.mkString)
   val partTwoFile: String = Using.resource(Source.fromFile(partTwo))(_.mkString)
   val reportOne: List[List[Int]] = fileContents.split("\n").map(_.split(" ").map(_.toInt).toList).toList
