@@ -1,10 +1,11 @@
-import Data.DayOne.*
 import Solutions.DayOneAnswers.*
-import Data.DayThree.*
-import Data.DayTwo.*
 import Solutions.DayTwoAnswers.*
+import Solutions.DayThreeAnswers.*
+import Solutions.DayFourAnswers.*
+import Data.DayOne.*
+import Data.DayTwo.*
+import Data.DayThree.*
 import Data.DayFour.*
-import Solutions.*
 
 @main def main(): Unit =
   val summedDiffs = processLeftRightList(leftList, rightList)

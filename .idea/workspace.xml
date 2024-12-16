@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c19295c1-bd08-4f22-95bc-8d15055adc37" name="Changes" comment="" />
+    <list default="true" id="c19295c1-bd08-4f22-95bc-8d15055adc37" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Solutions/DayThreeAnswers.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$03782023dd9fb0bf4ad0.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$360c6c7c7b8b8fc07e4e.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.6.2/update/update_cache_3/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.6.2/update/update_cache_3/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_3/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_3/inputs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +31,7 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="adventSnips" type="f1a62948:ProjectNode" />
+                <item name="AdventOfCode-2024" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -46,26 +54,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;MUnit.MySuite.Creates List of uniques.executor&quot;: &quot;Run&quot;,
-    &quot;MUnit.MySuite.Day Four: 1.executor&quot;: &quot;Run&quot;,
-    &quot;MUnit.MySuite.Day Four: 2.executor&quot;: &quot;Run&quot;,
-    &quot;MUnit.MySuite.Day One: 2.executor&quot;: &quot;Run&quot;,
-    &quot;MUnit.MySuite.Day three: 1.executor&quot;: &quot;Run&quot;,
-    &quot;MUnit.MySuite.Day three: 2.executor&quot;: &quot;Run&quot;,
-    &quot;MUnit.MySuite.Day two: 1.executor&quot;: &quot;Run&quot;,
-    &quot;MUnit.MySuite.Day two: 2.executor&quot;: &quot;Run&quot;,
-    &quot;MUnit.MySuite.example test that succeeds.executor&quot;: &quot;Run&quot;,
-    &quot;MUnit.MySuite.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/justinberkshire/adventOfCode/AdventOfCode-2024&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.main.executor": "Run",
+    "MUnit.MySuite.Creates List of uniques.executor": "Run",
+    "MUnit.MySuite.Day Four: 1.executor": "Run",
+    "MUnit.MySuite.Day Four: 2.executor": "Run",
+    "MUnit.MySuite.Day One: 2.executor": "Run",
+    "MUnit.MySuite.Day three: 1.executor": "Run",
+    "MUnit.MySuite.Day three: 2.executor": "Run",
+    "MUnit.MySuite.Day two: 1.executor": "Run",
+    "MUnit.MySuite.Day two: 2.executor": "Run",
+    "MUnit.MySuite.example test that succeeds.executor": "Run",
+    "MUnit.MySuite.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/justinberkshire/adventOfCode/AdventOfCode-2024",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.main">
     <configuration name="main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="main" />
