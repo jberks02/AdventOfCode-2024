@@ -5,32 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c19295c1-bd08-4f22-95bc-8d15055adc37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Data/DaySix.2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Data/DaySix.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Data/DaySix.test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Data/DaySix.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Solutions/DaySixAnswers.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/.bsp/sbt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$118325844f5a374d353e.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/MySuite.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/MySuite.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.6.2/classes/Data/DayFive.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.6.2/classes/Data/DayFive.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.6.2/classes/Data/DayFour.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.6.2/classes/Data/DayFour.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.6.2/classes/Data/DayOne.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.6.2/classes/Data/DayOne.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.6.2/classes/Data/DayThree.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.6.2/classes/Data/DayThree.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.6.2/classes/Data/DayTwo.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.6.2/classes/Data/DayTwo.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.6.2/classes/Main$package.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.6.2/classes/Main$package.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.6.2/classes/Solutions/DayFiveAnswers.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.6.2/classes/Solutions/DayFiveAnswers.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.6.2/classes/Solutions/DayFourAnswers.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.6.2/classes/Solutions/DayFourAnswers.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.6.2/classes/Solutions/DayOneAnswers.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.6.2/classes/Solutions/DayOneAnswers.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.6.2/classes/Solutions/DayThreeAnswers.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.6.2/classes/Solutions/DayThreeAnswers.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.6.2/classes/Solutions/DayTwoAnswers.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.6.2/classes/Solutions/DayTwoAnswers.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.6.2/classes/main.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.6.2/classes/main.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.6.2/test-classes/MySuite.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.6.2/test-classes/MySuite.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Solutions/DaySixAnswers.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Solutions/DaySixAnswers.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +73,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="MUnit.MySuite.Day Six: 2">
+  <component name="RunManager" selected="Application.main">
     <configuration name="main" type="Application" factoryName="Application" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -299,8 +274,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="MUnit.MySuite.Day Six: 2" />
         <item itemvalue="Application.main" />
+        <item itemvalue="MUnit.MySuite.Day Six: 2" />
         <item itemvalue="MUnit.MySuite.Day Six: 1" />
         <item itemvalue="MUnit.MySuite.Day Five: 2" />
         <item itemvalue="MUnit.MySuite.Day Five: 1" />

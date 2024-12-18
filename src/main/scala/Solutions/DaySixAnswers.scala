@@ -85,10 +85,14 @@ object DaySixAnswers {
     map.map(_.mkString).mkString("\n")
   @tailrec
   @tailrec
-  private def trackTillGuardCircles(guard: Guard, map: List[List[Char]], visited: Set[((Int, Int), Int)] = Set.empty, cycleStartFound: Option[((Int, Int), Int)] = None, secondVisitStates: Set[((Int, Int), Int)] = Set.empty): Boolean = {
+  private def trackTillGuardCircles(guard: Guard,
+                                    map: List[List[Char]],
+                                    visited: Set[((Int, Int), Int)] = Set.empty,
+                                    cycleStartFound: Option[((Int, Int), Int)] = None,
+                                    secondVisitStates: Set[((Int, Int), Int)] = Set.empty): Boolean = {
     val (nextGuard, nextMap) = moveGuard(guard, map)
     val nextState = (nextGuard.position, nextGuard.direction)
-    if !validatePositionIsInBounds(nextGuard.position, map) then false
+    if guard.position == nextGuard.position then false
     else cycleStartFound match {
       case None =>
         if visited.contains(nextState) then trackTillGuardCircles(nextGuard, nextMap, Set.empty, Some(nextState), Set.empty)
