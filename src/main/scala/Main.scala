@@ -3,13 +3,15 @@ import Solutions.DayTwoAnswers.*
 import Solutions.DayThreeAnswers.*
 import Solutions.DayFourAnswers.*
 import Solutions.DayFiveAnswers.*
+import Solutions.DaySixAnswers.*
 import Data.DayOne.*
 import Data.DayTwo.*
 import Data.DayThree.*
 import Data.DayFour.*
 import Data.DayFive.*
+import Data.DaySix.*
 
-@main def main(): Unit =
+@main def main(): Unit = {
   val summedDiffs = processLeftRightList(leftList, rightList)
   println(s"summedDiffs: $summedDiffs")
   val multipliedLeftRight = multiplicativeLeftRightListProcessing(leftPartTwo, rightPartTwo)
@@ -30,5 +32,9 @@ import Data.DayFive.*
   println(s"Counted middles: $correctReports")
   val updatedUpdates = countOfMiddleInCorrectedReports(dayFiveTwo._2, dayFiveTwo._1)
   println(s"Middle Count of Corrected: $updatedUpdates")
-
+  val numberOfDistinctPositions = trackFacilityGuardPositions(inputOne)
+  println(s"Number of distinct positions: ${numberOfDistinctPositions._1}")
+  val numberOfUniqueObjectPositions = findObstructionCirclePaths(testTwo)
+  println(s"Number of distinct objects: ${numberOfUniqueObjectPositions}")
+}
 

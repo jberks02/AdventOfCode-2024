@@ -1,9 +1,11 @@
 import Data.DayFive.*
+import Data.DaySix.testInput
 import Solutions.DayOneAnswers.*
 import Solutions.DayTwoAnswers.*
 import Solutions.DayThreeAnswers.*
 import Solutions.DayFourAnswers.*
 import Solutions.DayFiveAnswers.*
+import Solutions.DaySixAnswers.*
 
 
 class MySuite extends munit.FunSuite {
@@ -92,5 +94,13 @@ class MySuite extends munit.FunSuite {
   test("Day Five: 2") {
     val wrongMiddleFix = countOfMiddleInCorrectedReports(dayFiveTest._2, dayFiveTest._1)
     assertEquals(wrongMiddleFix, 123)
+  }
+  test("Day Six: 1") {
+    val (count, guard, map) = trackFacilityGuardPositions(testInput)
+    assertEquals(count, 41)
+  }
+  test("Day Six: 2") {
+    val numWays = findObstructionCirclePaths(testInput)
+    assertEquals(numWays, 6)
   }
 }

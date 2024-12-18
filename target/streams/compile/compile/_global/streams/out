@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E172] Type Error: /Users/justinberkshire/adventOfCode/AdventOfCode-2024/src/main/scala/Solutions/DaySixAnswers.scala:103:9 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m103 |[0m    }.sum[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m         ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m         No implicit Ordering defined for U.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m         where:    U is a type variable with constraint >: Boolean[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
